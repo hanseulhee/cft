@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,700&family=Original+Surfer&display=swap");
+
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -17,10 +17,3 @@ body {
 button {
   all: unset;
 }
-
-.hidden {
-  display: none;
-}
-
-
-/*# sourceMappingURL=index.css.map */
