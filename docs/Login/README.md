@@ -24,7 +24,6 @@ loginForm.addEventListener("submit", onLoginSubmit);
 ##### username 기억하기
 
 [local storage](https://developer.mozilla.org/ko/docs/Web/API/Window/localStorage)
-
 [setItem](https://developer.mozilla.org/en-US/docs/Web/API/Storage/setItem)
 
 ```js
