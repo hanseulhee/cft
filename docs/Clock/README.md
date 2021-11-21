@@ -35,7 +35,7 @@ new Date object는 현재 날짜, 시간, 분, 초에 대한 정보를 가지고
 #### [padStart](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/String/padStart)
 
 ```js
-    "string".padStart(2, "0");
+"string".padStart(2, "0");
 ```
 
 string이 있다면 padStart에게 길이가 2가 되어야 하는 string이라고 하는 코드다. padStart를 써서 string의 앞쪽을 늘려 해당 문자열 길이가 2가 되도록 하는 코드지만 2가 안될 경우 0으로 문자를 채워 길이 2로 만든다.
