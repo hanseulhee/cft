@@ -42,15 +42,23 @@ loginForm에 addEventListener을 더하고 submit을 기다린다.  submit event
 
 null이 아니라면 paintGreetings 함수를 실행한다. paintGreetings 함수가 local storage에 저장된 값을 인자로 받는다.
 
+
 **onLoginSubmit 함수**
+
 event의 기본 동작을 막아준다. (페이지 새로고침)
+
 form을 숨긴다.
+
 loginInput.value를 username이라는 변수로 저장한다.
+
 setItem을 이용해 username 값을 username이라는 key와 함께 local storage에 저장한다.
+
 paintGreetings함수를 실행한다. paintGreetings함수는 하나의 인자를 가지고 있는데 이는 user가 form안에 있는 input에 입력한 유저명을 받고 있다.
 
 
 **paintGreetings 함수**
+
 h1 요소 안에 텍스트를 추가한다.
+
 h1 요소로부터 "hidden"이라는 클래스 명을 제거한다.
 
