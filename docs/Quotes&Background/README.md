@@ -25,6 +25,7 @@ Math.random()에 10을 곱하면 0에서 10 사이의 숫자들을 얻을 수 �
 **[floor()](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)**
 
 주어진 숫자와 같거나 작은 정수 중에서 가장 큰 수를 반환한가 (내림)
+
 ex) 9.8 > 9
 
 

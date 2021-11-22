@@ -21,7 +21,7 @@ setTimeout(실행하고자 하는 함수, 호출되는 함수의 간격을 몇 m
 setTimeout - 시간 간격 후에 한 번만 함수를 실행한다.
 
 
-setInterval - 시간 간격 이후에 시작한 다음 해당 간격으로 계속 반복하여 함수를 반복적으로 실행할 수 있습니다.
+setInterval - 시간 간격 이후에 시작한 다음 해당 간격으로 계속 반복하여 함수를 반복적으로 실행할 수 있다.
 
 
 #### [Date](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Date)
