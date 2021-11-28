@@ -23,9 +23,6 @@ const (상수 - 바뀌지 않는 값), let
 호이스팅이란 함수 안에 있는 선언들을 모두 끌어올려서 해당 함수 유효 범위의 최상단에 선언하는 것을 말한다.
 자바스크립트는 모든 선언(var, let, const, function, class)를 호이스팅한다.
 
-**let**
-
-**const**
 
 #### 함수 레벨 스코프 (Function-level scope) vs 블록 레벨 스코프 (Block-level scope)
 

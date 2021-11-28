@@ -7,9 +7,14 @@
     <title>cft - Cheer For Today</title>
   </head>
   <body>
-    <nav class="nav"></nav>
+    <nav class="nav">
+      <div id="weather" class="nav__weather">
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
     <div class="summaryTool">
-      <h2 id="clock">00:00</h2>
+      <h2 id="clock" class="summaryTool__clock">00:00</h2>
       <from class="hidden" id="login-form">
         <input
           required
@@ -24,7 +29,7 @@
       <form id="todo-form">
         <input type="text" placeholder="Write a To Do and Press Enter" />
       </form>
-      <ul id="todo-list"></ul>
+      <ul id="todo-list" class="summaryTool__todo"></ul>
     </div>
     <div class="quoteTool">
       <div id="quote" class="quoteTool__quote">

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans:ital,wght@0,400;0,700;1,700&family=Original+Surfer&display=swap");
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -12,10 +12,24 @@ body {
   height: 100vh;
   background-color: #eae9e5;
   font-family: "Noto Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+button,
+input,
+li {
+  all: unset;
+}
+
+input {
+  width: 100px;
+  height: 50px;
 }
 
 button {
-  all: unset;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #7c0404;
 }
 
 .hidden {
@@ -23,15 +37,59 @@ button {
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 100%;
   height: 50px;
   border-bottom: 2px solid black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__weather {
+  all: unset;
+  font-weight: 300;
+  margin-left: 40px;
 }
 
 .summaryTool {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin: 30px 40px 30px 40px;
 }
 
+.summaryTool__clock {
+  all: unset;
+  font-size: 100px;
+  font-weight: 600;
+}
 
+.summaryTool__todo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Noto Sans KR", sans-serif;
+}
 
+.quoteTool {
+  width: 100%;
+  height: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.quoteTool__quote {
+  text-align: center;
+}
 /*# sourceMappingURL=index.css.map */
