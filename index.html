@@ -13,29 +13,33 @@
         <span></span>
       </div>
     </nav>
-    <div class="summaryTool">
-      <h2 id="clock" class="summaryTool__clock">00:00</h2>
-      <from class="hidden" id="login-form">
-        <input
-          required
-          maxlength="15"
-          type="text"
-          placeholder="What is your name?"
-        />
-        <input type="submit" value="Log In" />
-      </from>
-
-      <h1 class="hidden" id="greeting"></h1>
-      <form id="todo-form">
-        <input type="text" placeholder="Write a To Do and Press Enter" />
-      </form>
-      <ul id="todo-list" class="summaryTool__todo"></ul>
-    </div>
-    <div class="quoteTool">
-      <div id="quote" class="quoteTool__quote">
-        <span></span> - <span></span>
+    <div class="tool">
+      <div class="quoteTool">
+        <div id="quote" class="quoteTool__quote">
+          <marquee><span></span> - <span></span></marquee>
+        </div>
       </div>
+      <div class="tool__summaryTool">
+        <h2 id="clock" class="tool__summaryTool__clock">00:00</h2>
+        <from class="hidden" id="login-form">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="What is your name?"
+          />
+          <input type="submit" value="Log In" />
+        </from>
+
+        <h1 class="hidden" id="greeting"></h1>
+        <form id="todo-form">
+          <input type="text" placeholder="Write a To Do and Press Enter" />
+        </form>
+        <ul id="todo-list" class="tool__summaryTool__todo"></ul>
+      </div>
+      <div id="background" class="tool__bg"></div>
     </div>
+   
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
