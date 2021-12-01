@@ -1,38 +1,38 @@
 const quotes = [
   {
-    quote: "Life is either a great adventure or nothing.",
+    quote: "Life is either a great adventure or nothing",
     author: "Helen Keller",
   },
   {
-    quote: "Yesterday you said tomorrow. Just do it.",
+    quote: "Yesterday you said tomorrow. Just do it",
     author: "Nike",
   },
   {
-    quote: "Being happy never goes out of style.",
+    quote: "Being happy never goes out of style",
     author: "Lilly Pulitzer",
   },
   {
-    quote: "Learning to love yourself is the greatest love of all.",
+    quote: "Learning to love yourself is the greatest love of all",
     author: "Michael Masser",
   },
   {
-    quote: "The supreme happiness in life is the conviction that we are loved.",
+    quote: "The supreme happiness in life is the conviction that we are loved",
     author: "Victor Hugo",
   },
   {
-    quote: "Happiness depends upon ourselves.",
+    quote: "Happiness depends upon ourselves",
     author: "Aristotle",
   },
   {
-    quote: "To fall in love with yourself is the first secret to happiness.",
+    quote: "To fall in love with yourself is the first secret to happiness",
     author: "Robert Morely",
   },
   {
-    quote: "Victory is sweetest when you've known defeat.",
+    quote: "Victory is sweetest when you've known defeat",
     author: "Malcolm S. Forbes",
   },
   {
-    quote: "Where there is no struggle, there is no strength.",
+    quote: "Where there is no struggle, there is no strength",
     author: "Oprah Winfrey",
   },
   {
