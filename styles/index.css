@@ -131,7 +131,7 @@ button {
 
 .tool__bg > img {
   all: unset;
-  border: 4px solid #1d1d1d;
+  border: 3px solid #1d1d1d;
   width: 100%;
   height: 480px;
 }
